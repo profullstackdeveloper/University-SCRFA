@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Roboto-Slab';
+  src: url(../public/assets/fonts/roboto-slab.regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Open-sans';
+  src: url(../public/assets/fonts/OpenSans-Regular.ttf);
 }
+
+@font-face {
+  font-family: 'Open-sans-italic';
+  src: url(../public/assets/fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-condensed';
+  src: url(../public/assets/fonts/RobotoCondensed-Regular.ttf);
+}
+
+@tailwind utilities;
+@tailwind variants;

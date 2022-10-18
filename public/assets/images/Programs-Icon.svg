@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 92.9 80.3" style="enable-background:new 0 0 92.9 80.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#35B0CB;}
+	.st1{fill:none;stroke:#344154;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#D2B859;}
+</style>
+<title>Icon/Programs</title>
+<desc>Created with Sketch.</desc>
+<g id="Icon_x2F_Programs">
+	<g id="Group-4" transform="translate(12.000000, 21.000000)">
+		<polygon id="Fill-1" class="st0" points="-9.9,-9.8 66.1,-9.8 66.1,-19.8 -9.9,-19.8 		"/>
+		<g id="Group-5">
+			<polygon id="Stroke-2" class="st1" points="-10.5,43.8 65.5,43.8 65.5,-19.5 56.1,-19.5 -10.5,-19.5 			"/>
+			<line id="Stroke-4" class="st1" x1="-10.5" y1="-9.9" x2="65.5" y2="-9.9"/>
+		</g>
+		<polygon id="Fill-6" class="st2" points="0.1,13.2 24.1,13.2 24.1,-0.8 0.1,-0.8 		"/>
+		<g id="Group-14" transform="translate(14.000000, 14.000000)">
+			<polyline id="Stroke-10" class="st1" points="65.4,43.8 -10.5,43.8 -10.5,30 			"/>
+			<polyline id="Stroke-12" class="st1" points="51.8,-19.5 65.4,-19.5 65.4,43.8 			"/>
+		</g>
+		<line id="Stroke-7" class="st1" x1="0.1" y1="18.7" x2="24.1" y2="18.7"/>
+		<line id="Stroke-8" class="st1" x1="0.1" y1="24.7" x2="24.1" y2="24.7"/>
+		<line id="Stroke-9" class="st1" x1="0.1" y1="30.7" x2="24.1" y2="30.7"/>
+		<line id="Stroke-7_1_" class="st1" x1="30.1" y1="18.7" x2="54.1" y2="18.7"/>
+		<line id="Stroke-8_1_" class="st1" x1="30.1" y1="24.7" x2="54.1" y2="24.7"/>
+		<line id="Stroke-9_1_" class="st1" x1="30.1" y1="30.7" x2="54.1" y2="30.7"/>
+		<line id="Stroke-7_2_" class="st1" x1="30.1" y1="12.7" x2="54.1" y2="12.7"/>
+		<line id="Stroke-7_3_" class="st1" x1="30.1" y1="6.7" x2="54.1" y2="6.7"/>
+		<line id="Stroke-7_4_" class="st1" x1="30.1" y1="0.7" x2="54.1" y2="0.7"/>
+	</g>
+</g>
+</svg>
