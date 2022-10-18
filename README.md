@@ -28,4 +28,6 @@ npm start
 or 
 yarn start
 ```
+Then the project should be run on port 3000.
+
 ![ScreenShot](/Startscreen.PNG)
