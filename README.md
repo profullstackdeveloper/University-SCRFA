@@ -29,5 +29,5 @@ or
 yarn start
 ```
 <picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="./../../github/docs/blob/main/Startscreen.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="Startscreen.png">
 </picture>
