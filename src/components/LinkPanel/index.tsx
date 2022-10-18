@@ -10,9 +10,9 @@ export default function LinkPanel() {
             <div className='bg-dark-blue h-2 w-full mt-5 mb-5'></div>
             <div className='w-full flex flex-wrap justify-between mt-5 bg-white gap-1 p-4'>
                 {
-                    services.map((service: Service, index: number) => {
+                    services && services.length > 0 && services.map((service: Service, index: number) => {
                         return (
-                            <a href={service.link} className='max-w-xs target:shadow-lg mb-3 text-ex-light-blue underline underline-offset-1' key={index}>
+                            <a href={service.link} className='max-w-xs w-80 target:shadow-lg mb-3 text-ex-light-blue underline underline-offset-1' key={index}>
                                 {service.serviceName}
                             </a>
                         )
