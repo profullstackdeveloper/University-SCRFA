@@ -28,6 +28,4 @@ npm start
 or 
 yarn start
 ```
-<picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="Startscreen.png">
-</picture>
+![ScreenShot](/Startscreen.PNG)
