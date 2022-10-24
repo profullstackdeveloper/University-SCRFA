@@ -35,9 +35,9 @@ export default function Header({ clickMenuButton, showMenu }: PropTypes): JSX.El
                 <Logo></Logo>
             </div>
             <div className='flex items-center h-full'>
-                <Button css='hover:border-b-2' content='about us'></Button>
-                <Button css='hover:border-b-2' content='events'></Button>
-                <Button css='hover:border-b-2' content='boards & committees'></Button>
+                <Button content='about us'></Button>
+                <Button content='events'></Button>
+                <Button content='boards & committees'></Button>
                 <SearchToggleMenu></SearchToggleMenu>
             </div>
         </div>

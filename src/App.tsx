@@ -1,11 +1,11 @@
 import React from 'react';
 
-import CalendarOfEvents from './components/CalendarOfEvents';
-import RecentUpdates from './components/RecentUpdates';
+import CalendarOfEvents from './components/Calendar';
+import Recent from './components/Recent';
 import Layout from './layout/Layout';
 import LinkPanel from './components/LinkPanel';
 import ServicePanel from './components/ServicePanel';
-import Banner from './components/Banner';
+import Content from './components/Content';
 import Footer from './components/Footer';
 import MoveScrollTop from './components/MoveScrollTop';
 import { getEvents, getBlogs } from './helpers/serviceData';
@@ -26,11 +26,11 @@ function App() {
 
   return (
     <Layout handler={setShowBackButton}>
-      <Banner></Banner>
+      <Content></Content>
       <ServicePanel></ServicePanel>
       <LinkPanel></LinkPanel>
       <div className='flex w-full max-w-screen-xl justify-around flex-wrap'>
-        <RecentUpdates blogs={blogs}></RecentUpdates>
+        <Recent blogs={blogs}></Recent>
         <CalendarOfEvents events={events}></CalendarOfEvents>
       </div>
       <Footer></Footer>

@@ -14,7 +14,7 @@ export default function Layout(props: PropTypes): JSX.Element {
     const ref = React.useRef<HTMLDivElement>(null);
 
     const handleScroll = () => {
-        if(ref && ref.current && ref.current.scrollTop > 100) {
+        if(ref && ref.current && ref.current.scrollTop > 0) {
             props.handler(true);
         } else {
             props.handler(false);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { StrokeButton } from '../Buttons';
+import { StrokeLineButton } from '../Buttons';
 import { ClickAwayListener } from '@mui/material';
 import CSS from 'csstype'
 
@@ -31,7 +31,7 @@ export default function SearchToggleMenu(): JSX.Element {
                 {
                     showSearchMenu && <div className='flex p-4 bg-light-blue rounded-sm z-40' id="searchBar">
                         <input placeholder='Enter search term' className='px-2 py-3 text-lg placeholder:text-black-75 focus:outline-none'></input>
-                        <StrokeButton content='search' disabled={false} styles={searchButtonStyle}></StrokeButton>
+                        <StrokeLineButton content='search' disabled={false} styles={searchButtonStyle} />
                     </div>
                 }
             </div>

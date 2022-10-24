@@ -33,7 +33,6 @@ module.exports = {
       'black-cc': '#CCCCCC',
       'black-E1': '#E1E5EA',
       'black-F3': '#F3F6F9',
-      'white': 'white',
       'gray-1': '#F3F6F9',
     }
   },

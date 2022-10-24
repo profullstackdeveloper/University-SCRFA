@@ -1,12 +1,12 @@
 import { EventType } from '../../helpers/types';
-import { SolidButton } from '../Buttons';
+import { SolidLineButton } from '../Buttons';
 import Event from '../Event';
 
 interface PropTypes {
     events: EventType[];
 }
 
-export default function CalendarOfEvents({ events }: PropTypes) {
+export default function Calendar({ events }: PropTypes) {
     return (
         <div className='md:mx-14 mx-3'>
             <div className='w-fit text-dark-blue text-4xl font-bold md:text-5xl'>
@@ -21,7 +21,7 @@ export default function CalendarOfEvents({ events }: PropTypes) {
                 })
             }
             <div className='mt-6'></div>
-            <SolidButton content='view all events'></SolidButton>
+            <SolidLineButton content='view all events'></SolidLineButton>
             <div className='mb-32'></div>
         </div>
     )

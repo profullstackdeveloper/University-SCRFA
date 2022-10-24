@@ -1,11 +1,11 @@
-import StrokeButton from "./StrokeButton";
-import SolidButton from "./SolidButton";
-import Pagination from "./Pagination";
+import StrokeLineButton from "./StrokeLineButton";
+import SolidLineButton from "./SolidLineButton";
+import PaginationButton from "./PaginationButton";
 import MenuButton from "./MenuButton";
 
 export {
-    StrokeButton,
-    SolidButton,
-    Pagination,
+    StrokeLineButton,
+    SolidLineButton,
+    PaginationButton,
     MenuButton,
 }

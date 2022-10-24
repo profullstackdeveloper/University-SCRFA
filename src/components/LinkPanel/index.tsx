@@ -1,8 +1,7 @@
-import React from 'react';
 import { Service } from '../../helpers/types';
 import { services } from '../../helpers/serviceData';
 
-export default function LinkPanel() {
+export default function LinkPanel(): JSX.Element {
    
     return (
         <div className='container sm:px-auto px-3 mt-10'>
